@@ -6,8 +6,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/js/all.js">
+    <link rel="stylesheet" href="static/video">
+    <link rel="stylesheet" href="static/image">
+    <link rel="shortcut icon" href="static/image/favicon.ico" type="image/x-icon">
     <title>services page</title>
 </head>
 <body  bgcolor="green">
@@ -18,9 +23,9 @@ var icon = document.getElementById("icon");
 icon.onclick = function(){
     document.body.classList.toggle("dark-theme");
     if(document.body.classList.contains("dark-theme")){
-        icon.src = "/static/image/sun.jfif";        
+        icon.src = "static/image/sun.jfif";        
     }else{
-        icon.src = "/static/image/moon.jfif";
+        icon.src = "static/image/moon.jfif";
        
     }
 }
