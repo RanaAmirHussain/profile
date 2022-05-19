@@ -204,6 +204,8 @@ p {
 	background-size: cover;
 	background-position: top center;	
 	position: relative;
+	height: 200px;
+	width: 100%;
 	z-index: 1;
 }
 #hero::after {
