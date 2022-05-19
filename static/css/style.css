@@ -203,10 +203,16 @@ p {
 	background-image: url(static/image/34.jpg);
 	background-size: cover;
 	background-position: top center;	
-	position: relative;
+	position: absolute;
 	height: 1500px;
 	width: 100%;
 	z-index: 1;
+}
+#hero .hrana {
+	flex-basis: 50%;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
 }
 
 #hero::after {
