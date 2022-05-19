@@ -204,7 +204,7 @@ p {
 	background-size: cover;
 	background-position: top center;	
 	position: relative;
-	height: 200px;
+	height: 1500px;
 	width: 100%;
 	z-index: 1;
 }
@@ -250,7 +250,7 @@ p {
 	top: 0;
 	left: 0;
 	height: 100%;
-	width: 0;
+	width: 100%;
 	background-color: crimson;
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
