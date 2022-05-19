@@ -291,7 +291,11 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
+<<<<<<< HEAD
 	background-image: url(/static/image/35.jpg);
+=======
+	background-image: url('/static/image/35.jpg');
+>>>>>>> aa5d694a9b2b56bc5a9fbe5cc3d608f954258a03
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
