@@ -69,88 +69,70 @@
           <h1>slider animation</h1>
           <div class="maindiv "></div>
       </body>
-    <div>
-      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-    </div>
-
-
-<div class="container my-3">
-<h1 class="my-4 text-center"></h1>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-        <img src="https://source.unsplash.com/1200x900/?nature,water" class="d-block w-100" alt="...">
-            
-            <div class="card-body">
-              <p class="card-text"></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="https://source.unsplash.com/1200x900/?girl,water" class="d-block w-100" alt="...">
-            <div class="card-body">
-              <p class="card-text"></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="https://source.unsplash.com/1200x900/?boy,water" class="d-block w-100" alt="...">
-            <div class="card-body">
-              <p class="card-text"></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-           <img src="https://source.unsplash.com/1200x900/?students,lab" class="d-block w-100" alt="...">
-            <div class="card-body">
-              <p class="card-text"></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
    
-
-
-
-
-
   </body>
+
+
+  <body>
+    <style>
+        body {
+            background-color: rgb(61, 10, 145);
+        }
+        
+        h1 {
+            font-size: 2rem;
+            font-style: italic;
+            line-height: 0.4;
+            letter-spacing: 1.5rem;
+            text-align: center;
+            color: rgb(19, 241, 149);
+            margin-top: 50px;
+        }
+        
+        .maindiv {
+            width: 1265px;
+            height: 600px;
+            position: center;
+            transform: translate(-50% -50%);
+            background-size: 100% 100%;
+            border: rgb(235, 8, 8);
+            box-shadow: 5px 25px 35px 35px rgb(10, 236, 161);
+            animation: slider 30s infinite linear;
+        }
+        
+        @keyframes slider {
+            0% {
+                background-image: url(static/image/9.jpg);
+            }
+            30% {
+                background-image: url(static/image/11.jpg);
+            }
+            50% {
+                background-image: url(static/image/14.jpg);
+            }
+            60% {
+                background-image: url(static/image/17.jpg);
+            }
+            80% {
+                background-image: url(static/image/19.jpg);
+            }
+          }
+    </style>
+
+    <body>
+        <h1>slider animation</h1>
+        <div class="maindiv "></div>
+    </body>
+ 
+
+
+
+
+</body>
+
+
+
+
   
   </html>
   
