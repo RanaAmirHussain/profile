@@ -208,7 +208,7 @@ p {
 	width: 100%;
 	z-index: 1;
 }
-#hero.rana{
+#hero .rana{
 	background-position: top center;	
 	position: relative;
 	height: 500px;
